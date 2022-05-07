@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width", initial-scale="1.0">
+     <title>Document</title>
+     <!--css link-->
+     <link rel="stylesheet" href="./stylesheet/style.css"> 
+     <!--fontawesome-->
+     <script src="https://kit.fontawesome.com/525fd5b530.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+     <script src="todo.js"></script>
+ </body>
+   <div id="todos">
+       <div class="heading">
+           <h1>To Do List</h1>
+       </div>
+       <div class="todo-input-container">
+           <input type="text" class="todo_input" placeholder="Name.....">
+           <input type="text" id="myInput" placeholder="Name...">
+           <span onclick="newElement()" class="addBtn">Add item</span>  
+           <ul id="myUL">
+
+            <li>Do 100 Javascript</li>
+            <li>Learn Node Js</li>
+            <li>Learn React Js</li>
+            <li>Learn Graph QL</li>
+          </ul>
+
+        <div class ="clear-item-container">
+            <input type= "text" class="clear-item" placeholder= "clear-Item">
+          
+        </div>
+       </div>
+   </div>
+
+</html>
